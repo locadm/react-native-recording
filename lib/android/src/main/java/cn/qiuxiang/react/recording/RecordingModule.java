@@ -80,7 +80,7 @@ class RecordingModule extends ReactContextBaseJavaModule {
         }
 
         audioRecord = new AudioRecord(
-                MediaRecorder.AudioSource.UNPROCESSED,
+                MediaRecorder.AudioSource.VOICE_RECOGNITION,
                 sampleRateInHz,
                 channelConfig,
                 audioFormat,
